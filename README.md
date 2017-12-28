@@ -12,7 +12,7 @@ If you accidentally pushed private data (password, key, token, etc.), consider i
 
 You can remove the offending data, file, or folder, but the debacle lives on in your repo's history.  That's where [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/) comes in.  *You don't need this script*, but you should probably have a copy of BFG handy.  It's a faster, simpler alternative to git's filter-branch.  BFG can also remove large files, but this script dumbs it down, with just three options.
 
->The script was created for demonstration purposes, (inititally as a batch file), to show how great BFG Repo-Cleaner is, but I needed to filter out the political message.  I don't disagree, just couldn't have that on my screen.
+>The script was created for demonstration purposes, (inititally as a [batch file](https://github.com/yoshimi777/BFG-Helper-Batchfile)), to show how great BFG Repo-Cleaner is, but I needed to filter out the political message.  I don't disagree, just couldn't have that on my screen.
 
 ## What this script does
 
