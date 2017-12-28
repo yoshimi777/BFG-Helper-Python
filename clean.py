@@ -3,9 +3,13 @@ import os
 import shutil
 import stat
 import subprocess
-
 import requests
 from unipath import Path
+
+def req():
+    subprocess.run("pip install -r requirements.txt")
+    os.system('cls')
+req()
 
 HOME = Path(os.path.dirname(os.path.abspath(__file__)))
 UP = HOME.parent
